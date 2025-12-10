@@ -1,0 +1,4 @@
+@startuml
+"alpine-baselayout" --> "musl"
+"alpine-baselayout" --> "alpine-keys"
+@enduml

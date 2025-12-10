@@ -1,0 +1,22 @@
+@startuml
+!define RECTANGLE class
+skinparam class {
+    BackgroundColor White
+    BorderColor Black
+    ArrowColor #555555
+    FontSize 13
+}
+hide empty members
+left to right direction
+
+rectangle "alpine-baselayout" as alpine_baselayout ##FF6B6B
+rectangle "alpine-baselayout-data" as alpine_baselayout_data ##4ECDC4
+rectangle "3.4.3-r1" as 3.4.3_r1 ##4ECDC4
+rectangle "bin" as bin ##4ECDC4
+rectangle "sh" as sh ##4ECDC4
+
+alpine_baselayout --> alpine_baselayout_data
+alpine_baselayout --> 3.4.3_r1
+alpine_baselayout --> bin
+alpine_baselayout --> sh
+@enduml
