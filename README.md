@@ -7,8 +7,3 @@
 - Python 3.8+
 - Установленные зависимости из `requirements.txt`
 
-## Установка
-```bash
-git clone https://github.com/ВАШ_ЛОГИН/config-management-v7.git
-cd config-management-v7
-pip install -r requirements.txt
